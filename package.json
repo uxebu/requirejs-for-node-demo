@@ -1,0 +1,19 @@
+{
+  "name": "requirejs-for-node-demo",
+  "version": "0.0.1",
+  "description": "This project only demos how to use requirejs on node, incl test runner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jasmine-node/lib/jasmine-node/cli.js --runWithRequireJs test/"
+  },
+  "repository": "",
+  "author": "Wolfram Kriesing",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.3.4",
+    "requirejs": "~2.1.4"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.3.0"
+  }
+}
