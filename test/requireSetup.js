@@ -5,8 +5,6 @@ requirejs.config({
   baseUrl: join(__dirname, '..', 'src'),
   nodeRequire: require,
   paths: {
-    abcdec: join(__dirname, '..', 'node_modules', 'abcdec', 'src'),
-    swfparser: join(__dirname, '..', 'node_modules', 'swfparser', 'src'),
-    lodash: join(__dirname, '..', 'node_modules', 'lodash')
+    module1: join(__dirname, '..', 'external_modules', 'module1', 'src')
   }
 });
