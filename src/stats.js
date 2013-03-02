@@ -6,7 +6,11 @@ define([
   var stats = {
     getStatsForSwfFile: function() {
       return !!tag.getCount; // lets access tag, to simulate use
-    }
+    },
+    canSeeTagGetCountFunction: function() {
+      return !!tag.getCount;
+    },
+    tag: tag
   };
 
   return stats;
