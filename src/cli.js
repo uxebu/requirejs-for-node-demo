@@ -14,8 +14,8 @@ requirejs([
   var swfFileName = argv._[0];
 
   console.log(
-    'stats.getStatsForSwfFile=', stats.getStatsForSwfFile(swfFileName),
-    '\nstats.canSeeTagGetCountFunction()=', stats.canSeeTagGetCountFunction(),
-    '\nstats.findsSwfParser()=', stats.findsSwfParser()
+    stats.getStatsForSwfFile(swfFileName) + ' = stats.getStatsForSwfFile\n',
+    stats.canSeeTagGetCountFunction() + ' = stats.canSeeTagGetCountFunction()\n',
+    stats.findsSwfParser() + ' = stats.findsSwfParser()'
   );
 });
