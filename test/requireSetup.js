@@ -5,6 +5,6 @@ requirejs.config({
   baseUrl: join(__dirname, '..', 'src'),
   nodeRequire: require,
   paths: {
-    module1: join(__dirname, '..', 'external_modules', 'swfParser', 'src')
+    swfParser: join(__dirname, '..', 'external_modules', 'swfParser', 'src')
   }
 });

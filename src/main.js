@@ -1,5 +1,4 @@
-var requirejs = require('./requireSetup')(require);
-if (typeof define !== 'function') { var define = require('amdefine')(module) }
+//if (!requirejs) { var requirejs = require('./requireSetup')(require); }
 
 define([
   './stats'

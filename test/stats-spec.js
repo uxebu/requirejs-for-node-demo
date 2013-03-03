@@ -12,5 +12,9 @@ requirejs([
       expect(stats.canSeeTagGetCountFunction())
         .toBe(true);
     });
+    it('should find external swfParser module', function() {
+      expect(stats.findsSwfParser())
+        .toBe(true);
+    });
   });
 });

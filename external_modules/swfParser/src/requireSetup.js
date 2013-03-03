@@ -7,7 +7,6 @@ module.exports = function(nodeRequire) {
     baseUrl: __dirname,
     nodeRequire: nodeRequire,
     paths: {
-      swfParser: join(__dirname, '..', 'external_modules', 'swfParser', 'src')
     }
   });
   return requirejs;

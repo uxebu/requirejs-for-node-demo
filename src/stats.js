@@ -1,7 +1,8 @@
-if (typeof define !== 'function') { var define = require('amdefine')(module) }
 define([
-  './tag'
-], function(tag) {
+  './tag',
+  'swfParser/main'
+], function(tag, swfParserModule) {
+  var swfParser = swfParserModule.swfParser;
 
   var stats = {
     getStatsForSwfFile: function() {
@@ -9,6 +10,9 @@ define([
     },
     canSeeTagGetCountFunction: function() {
       return !!tag.getCount;
+    },
+    findsSwfParser: function() {
+      return typeof swfParser != 'undefined';
     },
     tag: tag
   };
