@@ -16,5 +16,17 @@ requirejs([
       expect(stats.canSeeSwfParserModule())
         .toBe(true);
     });
+    it('should find external swfParsers lib png file', function() {
+      expect(stats.canSeeSwfParserLibFile())
+        .toBe(true);
+    });
+    it('should see swfparser node style file', function() {
+      expect(stats.canSeeExternalNodeStyleFile())
+        .toBe(true);
+    });
+    it('should see swfparser require style file', function() {
+      expect(stats.canSeeExternalRequireStyleFile())
+        .toBe(true);
+    });
   });
 });
