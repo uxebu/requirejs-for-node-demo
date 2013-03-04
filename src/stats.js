@@ -11,8 +11,11 @@ define([
     canSeeTagGetCountFunction: function() {
       return !!tag.getCount;
     },
-    findsSwfParser: function() {
+    canSeeSwfParserModule: function() {
       return typeof swfParser != 'undefined';
+    },
+    canSeeSwfParserLibFile: function() {
+      return swfParser.canSeeLibPngFile();
     },
     tag: tag
   };

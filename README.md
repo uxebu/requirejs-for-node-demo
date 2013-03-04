@@ -1,3 +1,17 @@
+What to try?
+============
+The CLI env should work, try like this:
+
+```
+> node ./src/cli.js
+```
+
+and the test env should work, do
+
+```
+> npm test
+```
+
 Goal
 ====
 

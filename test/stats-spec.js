@@ -13,7 +13,7 @@ requirejs([
         .toBe(true);
     });
     it('should find external swfParser module', function() {
-      expect(stats.findsSwfParser())
+      expect(stats.canSeeSwfParserModule())
         .toBe(true);
     });
   });

@@ -1,8 +1,13 @@
-if (typeof define !== 'function') { var define = require('amdefine')(module) }
-define(function(tag) {
+define([
+  '../lib/png'
+], function(png) {
 
   var swfParser = {
-    parse: function() {}
+    parse: function() {},
+    canSeeLibPngFile: function() {
+      console.log(png);
+      return png.iAm == 'png.js';
+    }
   };
 
   return swfParser;
