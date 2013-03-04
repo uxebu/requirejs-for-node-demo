@@ -16,9 +16,9 @@ requirejs([
   console.log(
     stats.getStatsForSwfFile(swfFileName) + ' = stats.getStatsForSwfFile\n',
     stats.canSeeTagGetCountFunction() + ' = stats.canSeeTagGetCountFunction()\n',
-    stats.canSeeSwfParserModule() + ' = stats.canSeeSwfParserModule()',
-    stats.canSeeSwfParserLibFile() + ' = stats.canSeeSwfParserLibFile()',
-    stats.canSeeExternalNodeStyleFile() + ' = stats.canSeeExternalNodeStyleFile()',
+    stats.canSeeSwfParserModule() + ' = stats.canSeeSwfParserModule()\n',
+    stats.canSeeSwfParserLibFile() + ' = stats.canSeeSwfParserLibFile()\n',
+    stats.canSeeExternalNodeStyleFile() + ' = stats.canSeeExternalNodeStyleFile()\n',
     stats.canSeeExternalRequireStyleFile() + ' = stats.canSeeExternalRequireStyleFile()'
   );
 });

@@ -1,22 +1,22 @@
 define([
   './requireStyleFile',
-  './nodeStyleFile',
+//  './nodeStyleFile',
   '../lib/png'
-], function(requireStyleFile, nodeStyleFile, png) {
+], function(requireStyleFile,
+//            nodeStyleFile,
+            png
+  ) {
 
   var swfParser = {
     parse: function() {},
     canSeeLibPngFile: function() {
-      console.log(png);
       return png.iAm == 'png.js';
     },
     canSeeRequireStyleFile: function() {
-      console.log(tag);
-      return png.iAm == 'requireStyleFile.js';
+      return requireStyleFile.iAm == 'requireStyleFile.js';
     },
     canSeeNodeStyleFile: function() {
-      console.log(tag);
-      return png.iAm == 'nodeStyleFile.js';
+//      return nodeStyleFile.iAm == 'nodeStyleFile.js';
     }
   };
 
