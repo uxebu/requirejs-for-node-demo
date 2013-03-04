@@ -17,6 +17,12 @@ define([
     canSeeSwfParserLibFile: function() {
       return swfParser.canSeeLibPngFile();
     },
+    canSeeExternalNodeStyleFile: function() {
+      return swfParser.canSeeNodeStyleFile();
+    },
+    canSeeExternalRequireStyleFile: function() {
+      return swfParser.canSeeRequireStyleFile();
+    },
     tag: tag
   };
 
