@@ -1,6 +1,6 @@
 define([
   './requireStyleFile',
-//  './nodeStyleFile',
+  './nodeStyleFile',
   '../lib/png'
 ], function(requireStyleFile,
 //            nodeStyleFile,
@@ -16,7 +16,7 @@ define([
       return requireStyleFile.iAm == 'requireStyleFile.js';
     },
     canSeeNodeStyleFile: function() {
-//      return nodeStyleFile.iAm == 'nodeStyleFile.js';
+      return nodeStyleFile.iAm == 'nodeStyleFile.js';
     }
   };
 
