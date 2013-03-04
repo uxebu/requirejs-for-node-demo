@@ -1,9 +1,9 @@
 define([
   './requireStyleFile',
-  './nodeStyleFile',
+  './nodeStyleFile.js',
   '../lib/png'
 ], function(requireStyleFile,
-//            nodeStyleFile,
+            nodeStyleFile,
             png
   ) {
 
