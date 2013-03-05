@@ -4,7 +4,7 @@
   "description": "This project only demos how to use requirejs on node, incl test runner.",
   "main": "main.js",
   "scripts": {
-    "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js test/ --runWithRequireJs --requireJsSetup test/requireSetup.js"
+    "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js test/ --runWithRequireJs --requireJsSetup test/requireSetup.js; node ./src/cli.js; node ./src/nodeCli.js"
   },
   "repository": "",
   "author": "Wolfram Kriesing",

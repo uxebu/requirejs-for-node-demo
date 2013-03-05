@@ -1,4 +1,4 @@
-//if (!requirejs) { var requirejs = require('./requireSetup')(require); }
+if (!requirejs) { var requirejs = require('./requireSetup')(require); }
 
 define([
   './stats'

@@ -1,3 +1,4 @@
+console.log('\n\n====== Running src/cli.js ======\n');
 // This file contains the command line interface.
 // All code that is ONLY needed for the cli is contained
 // in here, this file is only used in the `/bin/<filename>.js`!
